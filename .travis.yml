@@ -15,8 +15,8 @@ deploy:
   bucket_path: docker-react
   on:
     branch: master
-  access_key_id: "$AWS_ACCESS_KEY"
-  secret_access_key: "$AWS_SECRET_KEY"
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
 env:
   global:
   - secure: O+cgLyWxCfAuNK9DXLmgYuuf+e50HI64evfpH4GIKZVrNI7JpoJmMCK/z6FnJPw5lxWWR3EDS0MU6NobSSg6GxCD3q6UAzVvucKHuqzgoi4Z8mds9bnXjluFfZUn1GZi8GTGUGtX8rEjQZHC198keRdCZ0GBW1nFH8JuGx0lk0Eno3ZFUTEmJhw0mEcEpy5EX/LlG/f150PWfYXrZzNzIErNLk3cpN3rKtOswPxbDg6DtEFylgzttgtjNkI8KXmN2hVsuxWHk/mh0DvVrjuw9SKU8lj2mdbN2FKe5H6C+oY9HkNrXVENXT56Rxd5BKohVEulasKYNvH1ciJbsLTMb6WNH/1dqcwwTPPmE98sFtBIeCPsdZfdnHzTvJbLAdOlMsx0ZSq/qCzAv8laA8MfA2E//Tmu1QNr1XOGjGp7VByDUJ//T135YYZJ6Zf0rgJCYJhUsjkn8b23BJOPQpXSl7HM19C13VZUGeDJ0a61r1mjFk0OKwji04oqBrV22QMw50r8M/TLu0DPlPqrRI04/uSZDnT+5cI8t8Hr7kxEr7wSepsk3DM2hAsRpoytZXZS/3S5o9AcERbaT0BUc8A5PEGVWTeQ+FtjtDHNv7peAHHxA9UbMj2h5WyOHH5AQQZWYus11pF0DMyOIKwgSI7C3aCkcu/eqLn3xW9pXQ9/6Ig=
